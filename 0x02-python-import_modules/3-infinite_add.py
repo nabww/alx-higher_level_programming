@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-import sys
-arguments = sys.argv[1:]
-result = 0
-
-for argument in arguments:
-    result += int(argument)
-
-print(result)
+if __name__ == "__main__":
+    import sys
+    result = sum(int(sys.argv[x]) for x in range(1, len(sys.argv)))
+    print("{}".format(result))
