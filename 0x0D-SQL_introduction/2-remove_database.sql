@@ -1,1 +1,3 @@
-DROP DATABASE hbtn_0c_0;
+--query to drop db
+--using drop stmt
+DROP database hbtn_0c_0;
