@@ -1,3 +1,3 @@
-/*SQL to show databases in the server*/
+--This is a query to show all dbs
+--using show statement
 SHOW DATABASES;
-
